@@ -1,0 +1,22 @@
+{
+  "name": "pay-bootcamp",
+  "version": "1.0.0",
+  "description": "Sample code to add LINE Pay to web app and bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node web.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kazuki Nakajima",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "line-pay": "^1.0.16",
+    "memory-cache": "^0.2.0",
+    "ngrok": "^3.2.5",
+    "uuid": "^3.3.3"
+  }
+}

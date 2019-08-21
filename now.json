@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [{ "src": "web.js", "use": "@now/node" }],
+  "routes": [{ "src": "(.*)", "dest": "web.js" }],
+  "name": "smile-piece",
+  "alias": "smile-piece",
+  "env": {
+    "LINE_PAY_CHANNEL_ID": "@line_pay_channel_id",
+    "LINE_PAY_CHANNEL_SECRET": "@line_pay_channel_secret",
+    "LINE_PAY_CONFIRM_URL": "https://smile-piece.now.sh/pay/confirm"
+  }
+}
